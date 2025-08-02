@@ -1,6 +1,5 @@
 // A flexible Life-like cellular automaton simulator supporting multiple B*/S* rules
 
-#include <windows.h>
 #include <SFML/Graphics.hpp>
 #include <random>
 #include <chrono>
@@ -34,7 +33,7 @@ int applyRules(int cell, int neighbors, const uint16_t b_mask, const uint16_t s_
 void setBoardPixels(std::vector<std::uint8_t>& pixels, const std::vector<int>& board,
     sf::Color liveColor = sf::Color::White, sf::Color deadColor = sf::Color::Black);
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
+int main()
 {
     sf::RenderWindow window(sf::VideoMode({ WIDTH, HEIGHT }), "Conway's Game of Life");
     window.setFramerateLimit(FRAME_RATE_LIMIT);
