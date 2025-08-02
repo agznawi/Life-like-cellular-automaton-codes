@@ -1,3 +1,5 @@
+// A flexible Life-like cellular automaton simulator supporting multiple B*/S* rules
+
 #include <windows.h>
 #include <SFML/Graphics.hpp>
 #include <random>
