@@ -1,4 +1,4 @@
-// A flexible Life-like cellular automaton simulator supporting multiple B*/S* rules
+// A Life-like cellular automaton supporting multiple B*/S* rules
 
 #include <SFML/Graphics.hpp>
 #include <random>
